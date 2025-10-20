@@ -167,7 +167,7 @@ void printList(linkedlist List) {
 }
 ```
 
-## Unguided 1 main.cpp
+## guided 1 main.cpp
 
 ```C++
 #include "list.h"
@@ -583,7 +583,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/Modul%204/output/ug1.png
 
 Saat program nomor 1 dijalankan, pertama kali list dibuat kosong dengan `createList(L)`, kemudian lima node baru dialokasikan dan dimasukkan satu per satu ke bagian depan list menggunakan `insertFirst()` dengan urutan nilai 2, 0, 8, 12, dan 9. Karena setiap node baru selalu ditempatkan di awal, urutan akhirnya menjadi 9 → 12 → 8 → 0 → 2 → NULL. Program kemudian menampilkan isi list dengan memanggil `printInfo(L)`, sehingga hasil yang muncul di layar adalah “9 12 8 0 2”.
 
@@ -723,10 +723,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/Modul%204/output/ug2.png
 
 Saat program dijalankan, pertama kali list dibuat kosong menggunakan createList(L) lalu lima node baru dialokasikan dan dimasukkan ke depan list dengan insertFirst() sehingga terbentuk urutan data 9 → 12 → 8 → 0 → 2 → NULL. Setelah itu, program menghapus node pertama (9) menggunakan deleteFirst(), kemudian menghapus node terakhir (2) dengan deleteLast(), dan menghapus node setelah 12 (yaitu 8) menggunakan deleteAfter(), sehingga tersisa list berisi 12 → 0 → NULL. Selanjutnya, program menghitung jumlah node dengan fungsi nbList() yang menghasilkan dua node, menampilkannya di layar, lalu menghapus seluruh node menggunakan deleteList() hingga list menjadi kosong kembali dengan output akhir “List Berhasil Terhapus – Jumlah node : 0”
 
