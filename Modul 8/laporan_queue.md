@@ -505,9 +505,11 @@ void printInfo(Queue Q) {
     cout << endl;
 }
 
-program menggunakan pendekatan array dengan dua indeks, yaitu front dan rear. Saat program dijalankan, data baru akan masuk ke posisi rear, lalu rear bertambah. Data keluar dari posisi front, lalu front juga bertambah. Jika front melewati rear maka queue dianggap kosong kembali. Pendekatan ini tidak melakukan pergeseran elemen, sehingga proses enque dan deque berjalan lebih cepat namun memerlukan pengecekan kondisi penuh dan kosong secara cermat.
+
 
 ```
+
+program menggunakan pendekatan array dengan dua indeks, yaitu front dan rear. Saat program dijalankan, data baru akan masuk ke posisi rear, lalu rear bertambah. Data keluar dari posisi front, lalu front juga bertambah. Jika front melewati rear maka queue dianggap kosong kembali. Pendekatan ini tidak melakukan pergeseran elemen, sehingga proses enque dan deque berjalan lebih cepat namun memerlukan pengecekan kondisi penuh dan kosong secara cermat.
 
 ### **Link Output**
 
