@@ -376,6 +376,7 @@ void printInfo(Queue Q) {
 }
 
 ```
+program akan membuat queue menggunakan array statis dengan operasi dasar: enqueue, dequeue, isFull, dan isEmpty. Saat program dijalankan, pertama-tama ia akan mengisi queue dengan beberapa data menggunakan enqueue. Jika queue masih memiliki ruang, data berhasil ditambahkan dan posisi rear bergerak maju. Kemudian program menampilkan isi queue. Setelah itu, program melakukan dequeue untuk menghapus elemen paling depan; elemen yang dihapus adalah elemen pertama yang sebelumnya masuk (sesuai konsep FIFO – First In First Out). Setelah di-dequeue, semua elemen digeser ke kiri sehingga posisi front kembali ke indeks awal. Terakhir, program menampilkan isi queue setelah perubahan sehingga terlihat perbedaan sebelum dan sesudah penghapusan data.
 
 ### **queueAlternatif2.cpp**
 
@@ -438,6 +439,7 @@ void printInfo(Queue Q) {
 }
 
 ```
+program akan menampilkan proses enqueue dan dequeue menggunakan struktur queue yang diimplementasikan secara berbeda dari alternatif pertama. Saat program dijalankan, data akan dimasukkan ke dalam antrian satu per satu, lalu program menampilkan isi antrian setelah setiap operasi. Setelah itu, program melakukan dequeue sehingga elemen terdepan dihapus, dan program kembali menampilkan isi antrian yang tersisa. Alur output yang terlihat adalah urutan data masuk, kondisi queue saat penuh, elemen yang keluar, dan kondisi queue setelah penghapusan.
 
 ### **queueAlternatif3.cpp**
 
@@ -503,15 +505,17 @@ void printInfo(Queue Q) {
     cout << endl;
 }
 
+program menggunakan pendekatan array dengan dua indeks, yaitu front dan rear. Saat program dijalankan, data baru akan masuk ke posisi rear, lalu rear bertambah. Data keluar dari posisi front, lalu front juga bertambah. Jika front melewati rear maka queue dianggap kosong kembali. Pendekatan ini tidak melakukan pergeseran elemen, sehingga proses enque dan deque berjalan lebih cepat namun memerlukan pengecekan kondisi penuh dan kosong secara cermat.
+
 ```
 
 ### **Link Output**
 
-Output Alternatif 1: (link github)
+Modul 8/output/queueA1.png
 
-Output Alternatif 2: (link github)
+Modul 8/output/queueA2.png
 
-Output Alternatif 3: (link github)
+Modul 8/output/queueA3.png
 
 ---
 
