@@ -5,7 +5,7 @@
 
 ## Dasar Teori
 
-Queue adalah struktur data linear yang menerapkan prinsip FIFO (First In First Out), artinya elemen yang pertama masuk akan menjadi elemen pertama yang keluar. Struktur data ini sering digunakan pada sistem antrian layanan, buffer data, dan penjadwalan proses. Menurut penelitian oleh Sasongko & Yuniarti (2020), queue berperan penting dalam pengaturan aliran data di berbagai sistem komputasi, di mana operasi penambahan terjadi pada bagian belakang (rear) dan penghapusan terjadi pada bagian depan (front), sehingga urutan data tetap terjaga.
+Queue adalah struktur data linear yang menerapkan prinsip FIFO (First In First Out), artinya elemen yang pertama masuk akan <br> menjadi elemen pertama yang keluar. Struktur data ini sering digunakan pada sistem antrian layanan, buffer data, dan penjadwalan proses. Menurut penelitian oleh Sasongko & Yuniarti (2020),<br> queue berperan penting dalam pengaturan aliran data di berbagai sistem komputasi, di mana operasi penambahan terjadi pada bagian belakang (rear) dan penghapusan terjadi pada bagian depan (front), sehingga urutan data tetap terjaga.
 
 ---
 
@@ -376,7 +376,7 @@ void printInfo(Queue Q) {
 }
 
 ```
-program akan membuat queue menggunakan array statis dengan operasi dasar: enqueue, dequeue, isFull, dan isEmpty. Saat program dijalankan, pertama-tama ia akan mengisi queue dengan beberapa data menggunakan enqueue. Jika queue masih memiliki ruang, data berhasil ditambahkan dan posisi rear bergerak maju. Kemudian program menampilkan isi queue. Setelah itu, program melakukan dequeue untuk menghapus elemen paling depan; elemen yang dihapus adalah elemen pertama yang sebelumnya masuk (sesuai konsep FIFO – First In First Out). Setelah di-dequeue, semua elemen digeser ke kiri sehingga posisi front kembali ke indeks awal. Terakhir, program menampilkan isi queue setelah perubahan sehingga terlihat perbedaan sebelum dan sesudah penghapusan data.
+program akan membuat queue menggunakan array statis dengan operasi dasar: enqueue, dequeue, isFull, dan isEmpty. Saat program dijalankan, pertama-tama ia akan mengisi queue dengan beberapa data menggunakan enqueue. Jika queue masih memiliki ruang, data berhasil <br>ditambahkan dan posisi rear bergerak maju. Kemudian program menampilkan isi queue. Setelah itu, program melakukan dequeue untuk menghapus elemen paling depan; elemen yang dihapus adalah elemen pertama yang sebelumnya masuk (sesuai konsep FIFO – First In First Out). <br>Setelah di-dequeue, semua elemen digeser ke kiri sehingga posisi front kembali ke indeks awal. Terakhir, program menampilkan isi queue setelah perubahan sehingga terlihat perbedaan sebelum dan sesudah penghapusan data.
 
 ### **queueAlternatif2.cpp**
 
@@ -439,7 +439,7 @@ void printInfo(Queue Q) {
 }
 
 ```
-program akan menampilkan proses enqueue dan dequeue menggunakan struktur queue yang diimplementasikan secara berbeda dari alternatif pertama. Saat program dijalankan, data akan dimasukkan ke dalam antrian satu per satu, lalu program menampilkan isi antrian setelah setiap operasi. Setelah itu, program melakukan dequeue sehingga elemen terdepan dihapus, dan program kembali menampilkan isi antrian yang tersisa. Alur output yang terlihat adalah urutan data masuk, kondisi queue saat penuh, elemen yang keluar, dan kondisi queue setelah penghapusan.
+program akan menampilkan proses enqueue dan dequeue menggunakan struktur queue yang diimplementasikan secara berbeda dari alternatif pertama. Saat program dijalankan, data akan dimasukkan ke dalam antrian satu per satu, lalu program menampilkan isi antrian setelah setiap operasi.<br> Setelah itu, program melakukan dequeue sehingga elemen terdepan dihapus, dan program kembali menampilkan isi antrian yang tersisa. Alur output yang terlihat adalah urutan data masuk, kondisi queue saat penuh, elemen yang keluar, dan kondisi queue setelah penghapusan.
 
 ### **queueAlternatif3.cpp**
 
@@ -521,7 +521,7 @@ Modul 8/output/queueA3.png
 
 ## Kesimpulan
 
-Queue merupakan struktur data penting yang digunakan dalam berbagai proses komputasi karena menerapkan prinsip FIFO sehingga data yang pertama masuk akan diproses lebih dahulu. Melalui praktikum ini, mahasiswa memahami implementasi queue dalam tiga bentuk berbeda, yaitu queue linear dengan shifting, queue linear tanpa shifting, dan circular queue. Setiap alternatif memiliki karakteristik dan efisiensinya masing-masing, di mana circular queue terbukti lebih optimal karena mampu memanfaatkan ruang secara menyeluruh tanpa perlu pergeseran elemen. Secara keseluruhan, praktikum ini membantu memperkuat pemahaman konsep antrian serta penerapannya dalam pemrograman dan pengelolaan data.
+Queue merupakan struktur data penting yang digunakan dalam berbagai proses komputasi karena menerapkan prinsip FIFO sehingga data yang pertama masuk akan diproses lebih dahulu.<br> Melalui praktikum ini, mahasiswa memahami implementasi queue dalam tiga bentuk berbeda, yaitu queue linear dengan shifting, queue linear tanpa shifting, dan circular queue. Setiap alternatif memiliki karakteristik dan efisiensinya masing-masing,<br> di mana circular queue terbukti lebih optimal karena mampu memanfaatkan ruang secara menyeluruh tanpa perlu pergeseran elemen. Secara keseluruhan, praktikum ini membantu memperkuat pemahaman konsep antrian serta penerapannya dalam pemrograman dan pengelolaan data.
 
 ## Referensi
 
