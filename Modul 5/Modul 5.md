@@ -718,7 +718,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+[Modul 5/output/unguided1.png](https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/Modul%205/output/unguided1.png)
 
 Saat program dijalankan, pengguna diminta memasukkan jumlah elemen array dan kemudian memasukkan nilai-nilai datanya. Setelah itu, program juga meminta nilai yang ingin dicari (key). Program akan melakukan binary search, yaitu membagi array menjadi dua bagian secara berulang untuk mempersempit pencarian. Jika nilai ditemukan, program menampilkan posisi indeksnya; jika tidak ditemukan, program menampilkan pesan bahwa data tidak ada di dalam array.
 
@@ -851,7 +851,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/Modul%205/output/Unguided2.png
 
 Saat program berjalan, pengguna diminta memasukkan jumlah data dan mengisi elemen-elemen array. Setelah itu pengguna memasukkan nilai yang ingin dicari. Program kemudian mengecek setiap elemen array satu per satu dari indeks 0 sampai akhir. Jika ditemukan kecocokan, program langsung memberi tahu posisi (indeks) data tersebut. Jika sudah mengecek semua elemen dan tidak ada yang cocok, program menampilkan bahwa data tidak ditemukan.
 
