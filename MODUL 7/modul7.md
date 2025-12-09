@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 7 - stack </h1>
 
 <p align="center">Muhamad faza fahri aziz - 103112400072</p>
 
@@ -482,11 +482,11 @@ int main() {
 
 ```
 
-### Output Unguided 3 :
+### Output Unguided 1 :
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/MODUL%207/output/unguided1.png
 
 stack awalnya dibuat kosong lalu beberapa nilai dimasukkan menggunakan operasi push sehingga data masuk secara berurutan dari bawah ke atas sesuai aturan LIFO. Setelah itu, operasi pop dilakukan beberapa kali sehingga elemen paling atas dihapus satu per satu. Hasil akhirnya, stack berisi susunan nilai [9, 2, 4, 3] dari posisi TOP ke bawah, sehingga ketika printInfo() dipanggil akan muncul output [TOP] 9 2 4 3. Ketika balikStack() dijalankan, seluruh elemen stack dipindahkan ke stack sementara sehingga urutannya terbalik (bottom menjadi top), menghasilkan susunan baru [3, 4, 2, 9] dari posisi TOP ke bawah. Maka pemanggilan printInfo() kedua kali menampilkan [TOP] 3 4 2 9
 
@@ -622,8 +622,8 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/MODUL%207/output/unguided2.png
 
-!
 
 setiap nilai dimasukkan ke dalam stack menggunakan prosedur pushAscending(), yaitu proses memasukkan elemen secara otomatis dalam urutan menurun dari TOP ke bawah. Setiap kali elemen baru ingin dipush, program memindahkan sementara elemen-elemen di atasnya yang lebih kecil sehingga elemen baru berada pada posisi yang tepat agar susunan tetap terurut. Karena itu, setelah seluruh nilai (3, 4, 8, 2, 3, 9) diproses, stack tersusun dari TOP menjadi [9, 8, 4, 3, 3, 2] sesuai urutan descending. Ketika balikStack() dijalankan, seluruh elemen dibalik sehingga nilai TOP berubah menjadi yang paling kecil, menghasilkan susunan [2, 3, 3, 4, 8, 9]. Inilah yang menyebabkan output akhir menampilkan dua kondisi: pertama stack terurut menurun sebelum dibalik, dan kedua stack terurut menaik setelah dibalik.
 
@@ -746,7 +746,7 @@ int main() {
 ```
 
 ### Output Unguided 3 :
-
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/MODUL%207/output/unguided3.png
 ##### Output 1
 
 penjelasan unguided 3
