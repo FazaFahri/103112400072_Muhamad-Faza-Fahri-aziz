@@ -653,7 +653,7 @@ int main() {
 ```
 
 ### Output Unguided 1 :
-
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/Modul%2010/output/output1.png
 ##### Output 1
 
 ![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
@@ -812,7 +812,7 @@ int main() {
 ```
 
 ### Output Unguided 2 :
-
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/Modul%2010/output/output2.png
 ##### Output 1
 
 !
@@ -996,7 +996,7 @@ int main() {
 ```
 
 ### Output Unguided 3 :
-
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/Modul%2010/output/output3.png
 ##### Output 1
 
 Ketika kode pada gambar ke-3 dijalankan, program akan mengeksekusi bagian perhitungan dan analisis struktur Binary Search Tree (BST) yang telah dibentuk sebelumnya. Setelah tree terbentuk dan traversal selesai dilakukan, program memanggil fungsi untuk menghitung kedalaman maksimum tree, jumlah node, dan total nilai data yang tersimpan pada seluruh node. Fungsi perhitungan tersebut bekerja secara rekursif dengan menelusuri setiap node mulai dari root hingga ke daun. Nilai kedalaman yang dihasilkan menunjukkan panjang jalur terpanjang dari root ke node terdalam, yang menggambarkan tingkat keseimbangan tree. Selanjutnya, program menghitung jumlah node dengan menjumlahkan seluruh node yang ada pada subtree kiri dan kanan, sehingga diperoleh total node yang tersimpan dalam BST. Terakhir, program menjumlahkan seluruh nilai info pada setiap node untuk menghasilkan total nilai data. Hasil dari ketiga perhitungan tersebut kemudian ditampilkan ke layar, dan setelah itu program berakhir secara normal tanpa kesalahan.
@@ -1008,3 +1008,4 @@ Berdasarkan hasil implementasi dan pengujian program, dapat disimpulkan bahwa st
 ## Referensi
 
 [1] Hibbard, T. N. (1962). Some combinatorial properties of certain trees with applications to searching and sorting. Journal of the ACM, 9(1), 13–28.
+
