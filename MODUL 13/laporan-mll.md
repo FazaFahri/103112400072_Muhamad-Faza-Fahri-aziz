@@ -644,7 +644,7 @@ int main() {
 ```
 
 ### Output Unguided 1 :
-
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/tree/main/MODUL%2013/output
 ##### Output 1
 
 ![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
@@ -666,5 +666,6 @@ Kelima, program melakukan operasi delete pada node parent G004 (Amfibi). Saat no
 Kesimpulannya, program Multi Linked List yang dijalankan berhasil menunjukkan bagaimana struktur data hierarkis dapat dibangun dan dikelola secara dinamis menggunakan konsep parent dan child. Melalui operasi insert, print, search, dan delete, program mampu merepresentasikan relasi satu ke banyak antara golongan hewan dan data hewan secara terstruktur. Proses penghapusan node parent yang sekaligus menghapus seluruh list child membuktikan bahwa multi linked list efektif dalam menangani data yang saling bergantung tanpa menyebabkan inkonsistensi memori. Dengan demikian, struktur data ini sangat sesuai digunakan untuk kasus pengelompokan data yang kompleks dan terorganisir, seperti klasifikasi objek atau sistem manajemen berbasis kategori.
 
 ## Referensi
+
 
 [1] Yong Ping Gao & Jun Zhang, Design and Implementation of Multiple Linked Lists Sharing the Same Memory, Advanced Materials Research, Vol. 706-708, pp. 1936-1940, 2013.
