@@ -375,7 +375,7 @@ int main() {
 
 ##### Output 1
 
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan12_Modul14/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/Modul%2014/output/image.png
 
 Saat program dijalankan, sistem terlebih dahulu menginisialisasi graph kosong, kemudian membuat beberapa simpul (A hingga H) dan menghubungkannya sesuai dengan struktur graph pada ilustrasi menggunakan representasi adjacency list. Setelah graph terbentuk, program menampilkan hubungan antar simpul ke layar, lalu melakukan penelusuran Depth First Search (DFS) mulai dari simpul A dengan cara menelusuri simpul sedalam mungkin sebelum kembali ke simpul sebelumnya. Setelah itu, status kunjungan setiap simpul direset dan program melanjutkan dengan penelusuran Breadth First Search (BFS) yang juga dimulai dari simpul A dengan cara mengunjungi simpul berdasarkan tingkat kedalaman dari atas ke bawah menggunakan queue. Program ini secara keseluruhan bertujuan untuk memperlihatkan proses pembentukan graph serta perbedaan pola penelusuran DFS dan BFS.
 
@@ -386,3 +386,4 @@ implementasi ADT Graph pada program ini berhasil merepresentasikan hubungan anta
 ## Referensi
 
 [1].Tarjan, R. E. (1972). Depth-first search and linear graph algorithms. SIAM Journal on Computing, 1(2), 146–160.
+
