@@ -665,7 +665,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+https://github.com/FazaFahri/103112400072_Muhamad-Faza-Fahri-aziz/blob/main/MODUL%206/OUTPUT/image.png
 
 program akan terlebih dahulu menginisialisasi list kosong, kemudian menambahkan beberapa data kendaraan ke dalam list menggunakan operasi insert. Setelah data tersimpan, seluruh isi list ditampilkan ke layar sehingga informasi nomor polisi, warna, dan tahun kendaraan dapat dilihat. Selanjutnya, program melakukan proses pencarian data berdasarkan nomor polisi tertentu; jika data ditemukan, informasi kendaraan tersebut ditampilkan sebagai hasil pencarian. Setelah itu, program melakukan penghapusan salah satu data kendaraan berdasarkan nomor polisi, lalu menampilkan kembali isi list untuk menunjukkan bahwa data tersebut telah berhasil dihapus. Dengan demikian, eksekusi program memperlihatkan alur lengkap penggunaan doubly linked list mulai dari penambahan, pencarian, hingga penghapusan data.
 
